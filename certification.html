@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/168591eac3.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <style media="screen"> 
+      body{
+        background: url(images/peace.jpg);
+        background-size: cover;
+        background-position: center center;
+      }
+      .carousel-item h3{
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;  
+        }
+      .carousel-item p{
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;  
+      }
+      @media (max-width: 768px) {
+        h2{
+          font-size: 16px;
+        }
+        h3{ 
+          font-size: 14px;
+        }
+      } 
+    </style>
+
+    <title>Po Jui Juan | My Personal WebPage</title>
+
+
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="aw-nav-text navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <!-- Home-->
+        <a class="navbar-brand" href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg> Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true">
+                About Me
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="profile.html">Profile</a>
+                <a class="dropdown-item" href="resume.html">Resume</a>
+                <a class="dropdown-item" href="certification.html">Certificate</a>
+                <a class="dropdown-item" href="gallery.html">My Life Gallery</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="credits.html">Credits</a>
+              </div>
+            </li>
+  
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li> -->
+  
+          </ul>
+            <a class="nav-link" href="contact.html" id="alter_color">Contact</a>
+          </div>
+    </nav>
+ 
+    <!-- Body1 -->
+    <div class="container aw-brand ">
+        <div class="bg-dark text-light rounded">
+            <h2 class=" pl-2 py-2 text-center"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-journal-code" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2z"/>
+                <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1z"/>
+                <path fill-rule="evenodd" d="M8.646 5.646a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 0 1 0-.708zm-1.292 0a.5.5 0 0 0-.708 0l-2 2a.5.5 0 0 0 0 .708l2 2a.5.5 0 0 0 .708-.708L5.707 8l1.647-1.646a.5.5 0 0 0 0-.708z"/>
+              </svg> My certificates</h2>
+        </div>
+    
+        <div id="carouselExampleIndicators2" class="carousel slide rounded " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/c1.jpg" alt="slide one">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/c2.jpg" alt="slide two">
+                    <div class="carousel-caption d-none d-md-block">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/c3.jpg" alt="slide three">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Html + CSS</h3>
+                        <p>7 hours html + css course on Udemy Platform</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="container bg-light mt-5 mb-5" style="background-color: white; border-radius: 25px; padding-bottom: 5px;">
+            <a href="https://www.hackerrank.com/bray851011?hr_r=1" style="color:black;">
+              <h3 class="pt-1 text-center"><i class="fab fa-hackerrank"></i> My HackerRank</h3><hr>
+            </a>
+
+            <div class="row no-gutters aw-img aw-asdf">
+                <div class="col-lg-6">
+                    <img class="img-fluid center" src="images/b1.png" >
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid center" src="images/b2.png">
+                </div>
+            </div>
+        </div>
+       
+     
+    </div>
+
+    <!-- Footer -->
+    <div class="aw-footer fixed-bottom">Made with <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+      </svg> by <strong>Bray</strong>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

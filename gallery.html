@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+    
+    <style media="screen"> 
+     body{
+        background: url(images/peace.jpg);
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 800px;
+     }
+    #marT{
+        margin-top: 80px;
+    }
+    @media (max-width: 768px) {
+        body{
+            background: url(images/peace.jpg);
+            background-position-x: center;
+            background-position-y: -9cm;
+            width: 100%;
+            height: auto;
+        }
+        .aw-top{
+            margin-top: 150px;
+        }
+        .carousel-caption {
+            top: 50;
+            bottom: 0;
+        }
+        h3{
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 0;
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;  
+        }
+        p{
+        font-size: 12px;
+        text-align: left;
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;  
+        }
+    }   
+    </style>
+
+    <title>Po Jui Juan | My Personal WebPage</title>
+
+
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="aw-nav-text navbar navbar-expand-sm navbar-light bg-light fixed-top">
+        <!-- Home-->
+        <a class="navbar-brand" href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+            <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+          </svg> Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true">
+                About Me
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="profile.html">Profile</a>
+                <a class="dropdown-item" href="resume.html">Resume</a>
+                <a class="dropdown-item" href="certification.html">Certificate</a>
+                <a class="dropdown-item" href="gallery.html">My Life Gallery</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="credits.html">Credits</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="projects.html">Projects</a>
+            </li> -->
+          </ul>
+            <a class="nav-link" href="contact.html" id="alter_color">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Body1 -->
+    <div id="main-container" class="container aw-top mb-2">
+        <div class="bg-dark text-light rounded" id="marT">
+            <h2 class=" pl-2 py-1"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar2-check-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 3.5c0-.276.244-.5.545-.5h10.91c.3 0 .545.224.545.5v1c0 .276-.244.5-.546.5H2.545C2.245 5 2 4.776 2 4.5v-1zm8.854 5.354a.5.5 0 0 0-.708-.708L7.5 10.793 6.354 9.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+              </svg> My life as a...</h2>
+        </div>
+    
+        <div id="carouselExampleIndicators2" class="carousel slide rounded " data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="6"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="7"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="8"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="images/family1.jpg" alt="slide one">
+                    <div class="carousel-caption">
+                        <h3>Son</h3>
+                        <p>NY, where my dream began!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/family2.jpg" alt="slide two">
+                    <div class="carousel-caption align-text-bottom">
+                        <h3>Family member</h3>
+                        <p>Family in NY!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/swimmer1.jpg" alt="slide three">
+                    <div class="carousel-caption  ">
+                        <h3>Swimmer</h3>
+                        <p>My first international competition!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/swimmer2.jpg" alt="slide four">
+                    <div class="carousel-caption">
+                        <h3>Brother</h3>
+                        <p>My last competition in my life!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/college1.jpg" alt="slide five">
+                    <div class="carousel-caption">
+                        <h3>College student</h3>
+                        <p>Crazy life at NSYSU, Taiwan!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/college2.jpg" alt="slide six">
+                    <div class="carousel-caption ">
+                        <h3>Tutor</h3>
+                        <p>Unforgettable moment at DCC!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/rpi1.jpg" alt="slide seven">
+                    <div class="carousel-caption ">
+                        <h3>RPI student</h3>
+                        <p>Accepted by my dream college!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/photo1.jpg" alt="slide eight">
+                    <div class="carousel-caption">
+                        <h3>Best friend</h3>
+                        <p>Chex! The beagle!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="images/photo2.jpg" alt="slide nine">
+                    <div class="carousel-caption ">
+                        <h3>Photographer</h3>
+                        <p>NY, Troy, Choes Falls</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>  
+    </div>
+
+    <!-- Footer -->
+    <div class="aw-footer fixed-bottom">Made with <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-heart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+      </svg> by <strong>Bray</strong>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
